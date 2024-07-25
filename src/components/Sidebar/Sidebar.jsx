@@ -23,10 +23,10 @@ function Sidebar() {
                 }} 
                 className="new-chat">
                     <img className='' src={assets.plus_icon}></img>
-                    {extend ? <p>New Chat</p> : null}
+                    {extend ? <p style={{color:"black"}}>New Chat</p> : null}
                 </div>
                 {extend ? <div className="recent">
-                    <p className="recent-title">Recent</p>
+                    <p className="recent-title" style={{color:"black"}}>Recent</p>
                     {
                         prevPrompts.map((pro,index) => {
                             // console.log(index, pro);
@@ -34,7 +34,7 @@ function Sidebar() {
 {/* Changed onClick={sendIT(pro)} to onClick={() => sendIT(pro)} to ensure sendIT is called only when the div is clicked, rather than immediately during the render. */}
 
                                 <img src={assets.message_icon} alt="" />
-                                <p>{pro.slice(0,18)} ...</p>
+                                <p style={{color:"black"}}>{pro.slice(0,18)} ...</p>
                             </div>)
 
                         })
@@ -48,15 +48,15 @@ function Sidebar() {
                 <div className="bottom-item-entry">
                     <div className="bottom-item recent-entry">
                         <img src={assets.question_icon} alt="" />
-                        {extend ? <p>Help</p> : null}
+                        {extend ? <p style={{color:"black"}}>Help</p> : null}
                     </div>
                     <div className="bottom-item recent-entry">
                         <img src={assets.history_icon} alt="" />
-                        {extend ? <p>Activity</p> : null}
+                        {extend ? <p style={{color:"black"}}>Activity</p> : null}
                     </div>
                     <div className="bottom-item recent-entry">
                         <img src={assets.setting_icon} alt="" />
-                        {extend ? <p>Settings</p> : null}
+                        {extend ? <p style={{color:"black"}}>Settings</p> : null}
                     </div>
                 </div>
             </div>

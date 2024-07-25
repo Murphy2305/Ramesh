@@ -5,6 +5,7 @@
     justify-content: space-between;
     background-color: #f0f4f9;
     padding: 25px 20px;
+    color: black;
 }
 
 .sidebar img{
@@ -29,7 +30,7 @@
     background-color: #e6eaf1;
     border-radius: 50px;
     font-size: 14px;
-    color: grey;
+    color: black;
     cursor: pointer;
 }
 .sidebar .recent{
@@ -40,6 +41,7 @@
 
 .sidebar .recent-title{
     margin-top: 20px;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -47,7 +49,7 @@
     display: flex;
     align-items: start;
     gap: 10px;
-    color: #282828;
+    color: black;
     padding: 10px;
     padding-right: 30px;
     border-radius: 50px;
