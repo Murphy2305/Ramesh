@@ -25,7 +25,7 @@ const Main = () => {
   return (
     <div className="main">
       <div className="nav">
-        <p>Ramesh</p>
+        <p>Mitra</p>
         <img src={assets.user_icon} alt="User Icon" />
       </div>
       <div className="main-container">
@@ -89,7 +89,7 @@ const Main = () => {
             </div>
           </div>
           <p className="bottom-info">
-            Ramesh may display inaccurate info, including about people, so double-check its response. Your privacy and Ramesh Apps
+            Mitra may display inaccurate info, including about people, so double-check its response. Your privacy and Mitra Apps
           </p>
         </div>
       </div>
